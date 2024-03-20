@@ -89,7 +89,7 @@ const LearningMonitoringForm = () => {
                         </div>
                     </div>
                     <div className="content-info--right">
-                        <img src="https://kenh14cdn.com/Images/Uploaded/Share/2010/10/14/141010HDchuyengiasaochepbai02.jpg" alt="" />
+                        <img src="https://kenh14cdn.com/Images/Uploaded/Share/2010/10/14/141010HDchuyengiasaochepbai02.jpg" alt="ảnh" />
                     </div>
                 </div>
                 <div className="job-check">
