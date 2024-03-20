@@ -1,0 +1,142 @@
+.container {
+  width: 650px;
+  background-color: #eaf1f9;
+}
+
+.learning-monitoring-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.learning-monitoring-form .title {
+  background-color: rgb(103 132 162);
+}
+.learning-monitoring-form .student-name,
+.learning-monitoring-form .teacher-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.learning-monitoring-form .class-date {
+  display: flex;
+  justify-content: center;
+}
+.learning-monitoring-form #giaoVien,
+.learning-monitoring-form #tenHocSinh {
+  width: 300px;
+  height: 24px;
+  padding: 4px;
+  background-color: white;
+}
+.learning-monitoring-form #lop,
+.learning-monitoring-form #ngay {
+  background-color: white;
+  width: 160px;
+  height: 24px;
+  padding: 4px;
+}
+.content-infor {
+  display: flex;
+  width: 100%;
+}
+
+.content-info--left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
+  gap: 16px;
+  padding-left: 20px;
+}
+.content-info--left .student-name,
+.content-info--left .teacher-name {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content-info--left .class-date {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.class-date .class,
+.class-date .date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.content-info--right {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-info--right img {
+  width: 80%;
+  object-fit: cover;
+  padding: 16px;
+}
+.content-info--left .job {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  gap: 10px;
+}
+
+.content-info--left .job #congViec {
+  min-height: 50px;
+}
+
+.learning-monitoring-form .job-check {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px 0 20px;
+  white-space: wrap;
+}
+
+.job-check .job-check-label {
+  text-align: left;
+}
+
+.learning-monitoring-form .button-confirm {
+  padding: 0 16px 0 16px;
+}
+.button-confirm button {
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 3px;
+}
+
+.button-confirm button:hover {
+  color: white;
+  background-color: rgb(103 132 162);
+  border-radius: 3px;
+}
+
+.result {
+  background-color: rgb(103 132 162);
+  text-align: left;
+}
+.result h2 {
+  text-align: center;
+  margin: 32px 0 0 0;
+  color: white;
+}
+
+.result pre {
+  white-space: pre-wrap;
+  font-size: 16px;
+  margin: 0 0 0 0;
+  color: white;
+  text-align: left;
+}
+
+.submitted-data {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}

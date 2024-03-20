@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router';
 import { Link } from 'react-router-dom';
 import './App.css';
 import LearningOutcomes from './components/LearningOutcomes';
+import LearningMonitoring from './components/LearningMonitoring';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" />
         <Route path="/bai1" element={<LearningOutcomes />} />
-        <Route path="/" element={<LearningOutcomes />} />
+        <Route path="/bai4" element={<LearningMonitoring />} />
       </Routes>
       <ul className="list">
         <li>
