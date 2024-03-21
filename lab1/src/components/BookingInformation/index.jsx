@@ -104,7 +104,7 @@ function BookingInformation(props) {
     return (
         <div className="container container-booking-information">
             <form className="booking-information-form" onSubmit={handleSubmit} method="post" action={window.location.pathname}>
-                <div className="title">
+                <div className="booking-information-title">
                     <h2>THÔNG TIN ĐẶT CHỔ</h2>
                 </div>
                 <div className="infor-quantity-date">
@@ -267,16 +267,17 @@ function BookingInformation(props) {
                         />
                     </label>
                 </div>
-                <div className="button-confirm">
+                <div className="button-booking">
                     <Button variant="contained" color="primary" type="submit">
                         Đặt chổ
                     </Button>
                 </div>
             </form>
             <div className="submitted-info">
+                <div className="ignore"></div>
                 {submitted && (
                     <div className="result-info">
-                        <div className="title">
+                        <div className="booking-information-title">
                             <h2>THÔNG TIN ĐẶT CHỖ</h2>
                         </div>
                         <div className="result-customer-info">

@@ -2,6 +2,7 @@
   width: 700px;
   background-color: #fedfc0;
   font-size: 16px;
+  margin-top: 40px;
 }
 
 .booking-information-form {
@@ -10,7 +11,16 @@
   gap: 16px;
   width: 100%;
 }
-.booking-information-form .title h2 {
+
+.booking-information-title {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  background-color: rgb(229 26 82);
+  border-radius: 3px 3px 0px 0px;
+}
+.booking-information-title h2 {
   color: yellow;
   font-style: italic;
   margin: 0;
@@ -123,20 +133,17 @@
   min-height: 46px;
   font-size: 16px;
 }
-.booking-information-form .button-confirm {
-  padding: 0 16px 0 16px;
+.booking-information-form .button-booking {
+  padding: 0 16px 20px 16px;
 }
 
-.booking-information-form .button-confirm button {
-  background-color: #d5d2c7;
-}
-.booking-information-form .button-confirm button:hover {
+.booking-information-form .button-booking button {
   background-color: #d5d2c7;
   color: black;
 }
-.container .submitted-info {
-  width: 100%;
-  background-color: white;
+.booking-information-form .button-booking button:hover {
+  background-color: #d5d2c7;
+  color: black;
 }
 
 .result-info {
@@ -145,9 +152,12 @@
   background-color: rgb(254 223 192);
   text-align: left;
   gap: 10px;
-  margin-top: 40px;
 }
-
+.submitted-info .ignore {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
 .result-info p {
   margin: 0;
 }
@@ -183,4 +193,10 @@
 
 .result-info h2 {
   color: yellow;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

@@ -24,7 +24,7 @@ const LearningMonitoringForm = () => {
     return (
         <div className="container container-learning-monitoring">
             <form className="learning-monitoring-form" onSubmit={handleSubmit(onSubmit)} method="post" action={window.location.pathname}>
-                <div className="title">
+                <div className="learning-monitoring-title">
                     <h2>THEO DÕI HỌC TẬP</h2>
                 </div>
                 <div className="content-infor">
@@ -112,6 +112,7 @@ const LearningMonitoringForm = () => {
                 </div>
             </form>
             <div className="submitted-data">
+                <div className="ignore"></div>
                 {submittedData && (
                     <div className="result">
                         <h2>Thông tin phiếu theo dõi</h2>

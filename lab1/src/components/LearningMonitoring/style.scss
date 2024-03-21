@@ -1,6 +1,7 @@
 .container-learning-monitoring {
   width: 650px;
   background-color: #eaf1f9;
+  margin-top: 40px;
 }
 
 .learning-monitoring-form {
@@ -8,8 +9,19 @@
   flex-direction: column;
   gap: 16px;
 }
-.learning-monitoring-form .title {
+.learning-monitoring-title {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
   background-color: rgb(103 132 162);
+  border-radius: 3px 3px 0px 0px;
+}
+.learning-monitoring-title h2 {
+  color: white;
+  font-style: italic;
+  margin: 0;
+  padding: 8px;
 }
 .learning-monitoring-form .student-name,
 .learning-monitoring-form .teacher-name {
@@ -104,7 +116,7 @@
 }
 
 .learning-monitoring-form .button-confirm {
-  padding: 0 16px 0 16px;
+  padding: 0 16px 16px 16px;
 }
 .button-confirm button {
   color: black;
@@ -124,7 +136,7 @@
 }
 .result h2 {
   text-align: center;
-  margin: 32px 0 0 0;
+  margin: 0;
   color: white;
 }
 
@@ -136,7 +148,8 @@
   text-align: left;
 }
 
-.submitted-data {
+.submitted-data .ignore {
   background-color: rgb(255, 255, 255);
   width: 100%;
+  height: 30px;
 }
