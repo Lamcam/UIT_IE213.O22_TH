@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './App.css';
 import LearningOutcomes from './components/LearningOutcomes';
 import LearningMonitoring from './components/LearningMonitoring';
+import BookingInformation from './components/BookingInformation';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" />
         <Route path="/bai1" element={<LearningOutcomes />} />
         <Route path="/bai4" element={<LearningMonitoring />} />
+        <Route path="/bai5" element={<BookingInformation />} />
       </Routes>
       <ul className="list">
         <li>

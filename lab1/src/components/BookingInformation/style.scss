@@ -1,0 +1,186 @@
+.container {
+  width: 700px;
+  background-color: #fedfc0;
+  font-size: 16px;
+}
+
+.booking-information-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.booking-information-form .title h2 {
+  color: yellow;
+  font-style: italic;
+  margin: 0;
+  padding: 8px;
+}
+
+.infor-quantity-date {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 64px;
+  padding-left: 20px;
+}
+.info-quantity {
+  display: flex;
+  gap: 10px;
+}
+.infor-quantity-date label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: red;
+  font-weight: bold;
+}
+
+.booking-information-form #soKhach {
+  width: 80px;
+  height: 24px;
+  padding: 4px;
+  background-color: white;
+}
+
+.booking-information-form #ngay {
+  width: 160px;
+  height: 24px;
+  padding: 4px;
+  background-color: white;
+}
+
+.booking-information-form .info-type-party,
+.booking-information-form .infor-location {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  padding-left: 20px;
+}
+
+.booking-information-form .infor-name-address {
+  display: flex;
+  gap: 48px;
+  padding-left: 20px;
+}
+.infor-name-address label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.booking-information-form #tenKhach,
+.booking-information-form #diaChi {
+  width: 175px;
+  height: 24px;
+  padding: 4px;
+  background-color: white;
+}
+
+.booking-information-form .infor-age-gender {
+  display: flex;
+  gap: 64px;
+  padding-left: 20px;
+}
+.infor-age #tuoi {
+  font-size: 16px;
+  height: 30px;
+  width: 160px;
+}
+.infor-age-gender label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.infor-age-gender .infor-gender {
+  display: flex;
+  align-items: center;
+}
+.infor-gender label {
+  gap: 10px;
+}
+
+.infor-contact label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 20px;
+}
+
+.infor-contact #bietDen {
+  font-size: 16px;
+}
+
+.booking-information-form .infor-other {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+
+.booking-information-form #yeuCauKhac {
+  width: 90%;
+  min-height: 46px;
+  font-size: 16px;
+}
+.booking-information-form .button-confirm {
+  padding: 0 16px 0 16px;
+}
+
+.booking-information-form .button-confirm button {
+  background-color: #d5d2c7;
+}
+.booking-information-form .button-confirm button:hover {
+  background-color: #d5d2c7;
+  color: black;
+}
+.container .submitted-info {
+  width: 100%;
+  background-color: white;
+}
+
+.result-info {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254 223 192);
+  text-align: left;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.result-info p {
+  margin: 0;
+}
+
+.result-customer-info {
+  padding-left: 20px;
+}
+
+.result-booking-info {
+  padding-left: 20px;
+}
+
+.result-other-info {
+  padding-left: 20px;
+}
+.result-other-info ul {
+  margin: 0;
+  padding: 0;
+}
+.result-other-info li {
+  list-style-type: none;
+}
+
+.result-contact-info {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.result-datetime-info {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.result-info h2 {
+  color: yellow;
+}
