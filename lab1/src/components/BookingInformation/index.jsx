@@ -102,10 +102,10 @@ function BookingInformation(props) {
         return formattedDate;
     }
     return (
-        <div className="container">
+        <div className="container container-booking-information">
             <form className="booking-information-form" onSubmit={handleSubmit} method="post" action={window.location.pathname}>
                 <div className="title">
-                    <h2>THEO DÕI HỌC TẬP</h2>
+                    <h2>THÔNG TIN ĐẶT CHỔ</h2>
                 </div>
                 <div className="infor-quantity-date">
                     <div className="info-quantity">

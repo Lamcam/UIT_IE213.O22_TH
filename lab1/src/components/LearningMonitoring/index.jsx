@@ -22,7 +22,7 @@ const LearningMonitoringForm = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container container-learning-monitoring">
             <form className="learning-monitoring-form" onSubmit={handleSubmit(onSubmit)} method="post" action={window.location.pathname}>
                 <div className="title">
                     <h2>THEO DÕI HỌC TẬP</h2>
