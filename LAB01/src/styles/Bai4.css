@@ -1,0 +1,76 @@
+.form-container-4 {
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.form-container-4 h1{
+    background-color: rgb(94, 127, 138);
+    margin: 0;
+    padding: 2px;
+    color: white;
+}
+
+.form-container-4 form{
+    background-color: rgb(210, 234, 241);
+    padding: 10px 10px 10px 10px;
+}
+.input-content-4-container{
+    padding-right: 25%;
+}
+.input-content-4{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-content-4 input[type='text']{
+    width: 390px;
+    padding: 2px;
+    font-size: 20px;
+} 
+.input-textarea{
+    text-align: left;
+}
+.input-textarea textarea{
+    width: 100%;
+    padding: 2px;
+    font-size: 20px;
+}
+.classroom-date{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.classroom input,
+.date input{
+    width: 200px;
+    padding: 2px;
+    font-size: 20px;
+}
+.input-checkbox{
+    text-align: left;
+}
+.form-container-4 button{
+    padding: 2px 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.result-container-4{
+    text-align: left;
+    background-color: rgb(94, 127, 138);
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px 0;
+    margin-top: 50px;
+}
+.result-container-4 h2{
+    margin: 0;
+    text-align: center;
+}
+.result-container-4 p{
+    margin: 10px;
+}

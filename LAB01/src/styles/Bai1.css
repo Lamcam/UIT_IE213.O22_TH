@@ -1,0 +1,40 @@
+.form-container{
+    width: 600px; 
+    margin: 0 auto; 
+    background-color: #f59cbb;
+    text-align: center;
+    box-shadow: 0 0 10px 0;
+}
+.form-container h1 {
+    margin: 0;
+    padding: 2px;
+    background-color: rgb(212, 23, 23);
+    color:white
+}
+
+.form-container form {
+    padding: 10px 60px 10px 20px;
+    font-size: 20px;
+}
+
+.input-content{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.input-content input{
+    width: 300px;
+    padding: 2px;
+    font-size: 20px;
+}
+.input-content input[readOnly] {
+    background-color:rgb(242, 242, 174);
+}
+
+.form-container button{
+    padding:2px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
