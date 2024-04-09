@@ -6,14 +6,14 @@ function PopUp (props) {
     const hide = props.hide ? "block" : "none";
     console.log("hide in popUp ",hide);
     const style={
-        posittion: 'absolute',
+        posittion: 'relative',
         display: hide,
         fontFamily: 'Montserrat, sans-serif',
         fontSize: '400',
         height: '250px',
         width: '500px',
         position: 'absolute',
-        top: '50%',
+        bot: '50%',
         left: '50%',
         textAlign: 'center',
         transform: 'translate(-50%, -50%)',

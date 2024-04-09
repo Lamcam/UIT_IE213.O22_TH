@@ -134,7 +134,7 @@ function Form2() {
                 </label>
             </div>
 
-            <button>Ghi nhận</button>
+            <button type='submit'>Ghi nhận</button>
         </form>
         <PopUp 
         hide = {hide}
